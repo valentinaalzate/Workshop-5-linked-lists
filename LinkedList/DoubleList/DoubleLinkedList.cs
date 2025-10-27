@@ -127,7 +127,7 @@ namespace DoubleList
             var current = _head;
             int max = 0;
 
-            // Primero determinamos la frecuencia máxima
+            
             while (current != null)
             {
                 int count = 0;
@@ -147,9 +147,9 @@ namespace DoubleList
                 current = current.Next;
             }
 
-            // Ahora buscamos todos los elementos con esa frecuencia máxima
+            
             current = _head;
-            string modes = "";
+            var modes = string.Empty;
             while (current != null)
             {
                 int count = 0;
